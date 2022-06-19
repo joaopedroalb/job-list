@@ -14,3 +14,21 @@ export const Header = styled.header`
         background-image: url(${bgMobile});
     }
 `
+
+export const CardContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+`
+
+export const PageContainer = styled.div`
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+`

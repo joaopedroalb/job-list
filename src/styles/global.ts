@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
         --green:#5ba4a4;
         --white:#fff;
         --black:#2c3a3a;
+        --gray:#8c8c8c;
     }
     html,
     body {
@@ -22,7 +23,8 @@ const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         list-style: none;
-        
+        padding: 0;
+        margin: 0;
     }
 ` 
 
